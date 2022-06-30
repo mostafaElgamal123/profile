@@ -1,0 +1,204 @@
+/* style home */
+
+.items-about{
+    padding: 40px 0;
+    z-index: 1;
+    .about-content{
+        margin-right: 40px;
+        margin-left: 30px;
+        text-align: end;
+        h3{
+            margin-bottom: 40px;
+            font-size: 20px;
+            color: #111;
+        }
+        h2{
+            font-size: 50px;
+            font-weight: 700;
+            color: #000;
+            margin-bottom: 30px;
+        }
+        p{
+            font-size: 20px;
+            font-weight: 400;
+            color: #222;
+            margin-bottom: 30px;
+        }
+    }
+    .owl-theme{
+    .owl-item{
+        border-radius: 3px;
+        overflow: hidden;
+        z-index: 2;
+        img{
+            width: 100% !important;
+            height: 400px;
+        }
+    }
+    .owl-nav{
+        button.owl-prev{
+            position: absolute;
+            top: 50%;
+            right: 40px;
+            transform: translateY(-50%);
+            color: white;
+            font-size: 60px;
+            font-weight: 600;
+            background: none;
+        }
+        button.owl-next{
+            position: absolute;
+            top: 50%;
+            left: 40px;
+            transform: translateY(-50%);
+            color: white;
+            font-size: 60px;
+            font-weight: 600;
+            background: none;
+        }
+    }
+    .owl-dots{
+        display: none;
+    }
+   }
+}
+
+.items-offer{
+    padding: 20px 0;
+    h2{
+        text-align: center;
+        margin-bottom: 30px;
+        font-weight: 700;
+        font-size: 40px;
+    }
+}
+.items-sections{
+    padding: 80px 0;
+    background-color: #fafcff;
+    text-align: center;
+    .item-section{
+        width: 160px;
+        height: 160px;
+        border-radius: 50%;
+        background-color: #3b5998;
+        border: 2px solid #fff;
+        position: relative;
+        box-shadow: 1px 1px 4px 1px #ccc;
+        margin-left: 15px;
+        .circ-section{
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translateX(-50%) translateY(-50%);
+                text-align: center;
+                h3{
+                    color: #fff;
+                    font-size: 30px;
+                    margin-bottom: 10px;
+                    font-weight: 700;
+                }
+                span{
+                    color: #fff;
+
+                }
+        }
+    }
+}
+.items-completed-projects{
+    padding: 50px 0;
+    h2{
+        text-align: center;
+        margin-bottom: 30px;
+        font-weight: 700;
+        font-size: 40px;
+    }
+    .content-box{
+        .bottom-title{
+            a{
+                background: none;
+                color: #000;
+                border: none;
+                font-size: 30px;
+                font-weight: 700;
+                box-shadow: none;
+                padding: 0;
+                margin-bottom: 15px;
+                &:hover{
+                    color: #a7cb00;
+                }
+            }
+        }
+    }
+}
+.items-connect{
+    padding: 50px 0;
+    h2{
+        text-align: center;
+        margin-bottom: 30px;
+        font-weight: 700;
+        font-size: 40px;
+    }
+    .card-connect{
+        border: 1px solid gainsboro;
+        padding: 20px ;
+        border-radius: 4px;
+        form{
+            text-align: end;
+            .form-group{
+                label{
+                    display: inline-block;
+                    font-size: 20px;
+                    font-weight: 700;
+                    color: #777777;
+                }
+                input{
+                    width: 100%;
+                    text-align: end;
+                    padding: 10px;
+                    border: 1px solid gainsboro;
+                    border-radius: 4px;
+                    color: #000;
+                    font-weight: 600;
+                    outline: none;
+                    margin-top: 10px;
+                    font-size: 18px;
+                }
+                textarea{
+                    width: 100%;
+                    text-align: end;
+                    padding: 10px;
+                    border: 1px solid gainsboro;
+                    border-radius: 4px;
+                    color: #000;
+                    font-weight: 600;
+                    outline: none;
+                    margin-top: 10px;
+                    height: 150px;
+                    font-size: 18px;
+                }
+                button{
+                    width: 100%;
+                    text-align: center;
+                    padding: 10px;
+                    border: none;
+                    box-shadow: 0 0 4px gainsboro;
+                    border-radius: 4px;
+                    color: #fff;
+                    font-weight: 600;
+                    outline: none;
+                    margin-top: 10px;
+                    background-color: #2fa360;
+                    cursor: pointer;
+                    font-size: 20px;
+                    font-weight: 700;
+                    transition: 0.5s;
+                    &:hover{
+                        letter-spacing: 1px;
+                        background-color: #18c761;
+                    }
+                }
+        }
+    }
+    }
+}
+/* end style home */

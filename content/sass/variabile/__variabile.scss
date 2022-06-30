@@ -1,0 +1,23 @@
+/* style variabile */
+
+.dis-flex{
+    display: flex;
+}
+.mt-lg-5{
+    margin-top: 4rem !important;
+}
+
+$items_text:('text-start':start,'text-center':center,'text-end':end);
+@each $text,$text_val in $items_text {
+    .#{$text}{
+        text-align: $text_val !important;
+    }
+}
+
+$items_color:('red':red,'black':#000,'white':#fff);
+@each $color,$color_val in $items_color {
+    .#{$color}{
+        color: $color_val !important;
+    }
+}
+/* end style variabile */

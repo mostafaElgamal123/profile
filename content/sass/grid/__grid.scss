@@ -1,0 +1,32 @@
+/* style grid */
+
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+@for $i from 1 to 13 {
+    .col-#{$i}{
+        width: 100%;
+        max-width: 100%;
+        padding: 10px;
+        margin-top: 10px;
+        overflow: hidden;
+    }
+}
+@for $i from 1 to 13 {
+    .col-#{$i}{
+        flex: 0 0 percentage($i/12);
+    }
+}
+
+/* end style grid */
